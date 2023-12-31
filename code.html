@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body{
+            color: white;
+            background-color: darkseagreen;
+        }
+        h1{
+            text-align: center;
+        }
+        .head{
+            text-align: center;
+            font-weight: bold;
+            margin: 0%;
+            border: 0%;
+            font-size: large;
+        }
+        .link{
+            color: white;
+            background-color: orange;
+            border: 0%;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 0%;
+        }
+        @media (max-width: 600px){
+            .head{
+                display: flex;
+                flex-direction: column;
+                flex-shrink: 1;
+                flex-grow: 1;
+            }
+            img{
+                height: 200px;
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>M.Bharath's Profile</h1>
+    <hr />
+    <div class="head">
+        <h2>I'm a Web Developer</h2>
+        <h3>About Me</h3>
+        <a class="picture" href="./webs/about me.html"><img src="./images/About ME.jpg" height="400px" width="500px" alt="About Bharath"/></a>
+        <h3>Professional Life</h3>
+        <a class="picture" href="./webs/professional.html"><img src="./images/Professional.jpeg" height="400" width="500px" alt="MY Professional life." /></a>
+        <h3>Personal Life</h3>
+        <a class="picture" href="./webs/personal.html"><img src="./images/Personal.jpeg" height="400" width="500px" alt="MY Personal life." /></a>
+        <hr />
+        <a href="./webs/contact.html"><Button class="link">Contact Details</Button></a>
+    </div>
+</body>
+</html>
